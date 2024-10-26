@@ -106,7 +106,7 @@ nav img {
   transition: all 0.5s ease;
 }
 .sidebar a {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   width: 100%;
 }
 .sidebar a:hover {
@@ -260,6 +260,6 @@ footer {
 }
 @media (max-width: 850px) {
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
