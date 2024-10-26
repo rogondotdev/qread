@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QRead | Balingasa High School Library</title>
+    <link rel="stylesheet" href="/qread/main.css" />
+    <link rel="icon" href="/qread/pictures/qread-logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/remixicon/fonts/remixicon.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="/qread/pictures/qread-logo.png" alt="QRead Logo" />
+
+        <ul class="sidebar">
+          <div class="ekis">
+            <li onclick="hideSidebar()"><i class="ri-close-line"></i></li>
+          </div>
+          <li onclick="hideSidebar()"><a href="/qread/index.html">Home</a></li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/about.html">About</a>
+          </li>
+          <li onclick="hideSidebar()"><a href="/qread/books.html">Books</a></li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/index.html#people--section">People</a>
+          </li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/index.html#contact--section">Contact</a>
+          </li>
+        </ul>
+        <ul>
+          <li class="hideonmobile"><a href="/qread/index.html">Home</a></li>
+          <li class="hideonmobile">
+            <a href="/qread/about.html">About</a>
+          </li>
+          <li class="hideonmobile"><a href="/qread/books.html">Books</a></li>
+          <li class="hideonmobile">
+            <a href="/qread/index.html#people--section">People</a>
+          </li>
+          <li class="hideonmobile">
+            <a href="/qread/index.html#contact--section">Contact</a>
+          </li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a><i class="ri-menu-line"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <script>
+        function showSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "flex";
+        }
+        function hideSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "none";
+        }
+      </script>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1>Balingasa High School Library</h1>
+          <h2>Learn with Digitized Books</h2>
+          <a href="#books--section">Read now for free</a>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>What is QRead?</h2>
+        <hr />
+        <div class="container">
+          <h3>Qread</h3>
+          <div class="about--content">
+            - Is a website created to help the
+            <span>library of Balingasa High School</span> adapt to the
+            skyrocketing changes of this digital world by digitizing its books
+            so they can be read on any device. QRead is also
+            <span>part of the compliance</span> for our subject,
+            <em>Practical Research 2</em>.
+          </div>
+          <a href="/qread/about.html">Learn more</a>
+        </div>
+        <p>
+          * Click the <em>'Learn more'</em> button for deeper explanation of
+          what is BHS: QRead, and to read the instructions to read ebooks.
+        </p>
+      </section>
+
+      <section id="books--section" class="books--section">
+        <h2>Book Section</h2>
+        <hr />
+        <div class="books--wrapper">
+          <div class="books">
+            <div class="book--image">
+              <img
+                src="/qread/pictures/science--book.jpg"
+                alt="Science Books"
+              />
+            </div>
+            <a href="/qread/books.html#science-books-section">Science Books</a>
+          </div>
+          <div class="books">
+            <div class="book--image">
+              <img src="/qread/pictures/ict--book.jpg" alt="ICT Books" />
+            </div>
+            <a href="/qread/books.html#ict-books-section">ICT Books</a>
+          </div>
+          <div class="books">
+            <div class="book--image">
+              <img
+                src="/qread/pictures/math--book.jpg"
+                alt="Mathematics Books"
+              />
+            </div>
+            <a href="/qread/books.html#math-books-section">Mathematics Books</a>
+          </div>
+        </div>
+        <div class="books--wrapper1">
+          <div class="books">
+            <div class="book--image">
+              <img
+                src="/qread/pictures/english--book.png"
+                alt="English Books"
+              />
+            </div>
+            <a href="/qread/books.html#english-books-section">English Books</a>
+          </div>
+          <div class="books">
+            <div class="book--image">
+              <img
+                src="/qread/pictures/history--book.jpg"
+                alt="history Books"
+              />
+            </div>
+            <a href="/qread/books.html#history-books-section">History Books</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="people--section" class="people--section">
+        <h2>Website Contributors</h2>
+        <hr />
+        <div class="people--wrapper">
+          <div class="people--image">
+            <img src="/qread/pictures/ict--book.jpg" alt="Group 3 - ICT" />
+          </div>
+          <div class="people--details">
+            <h3>Mhyles Toledo</h3>
+            <p>
+              - Created the QR codes of eBooks. <br />- Directing and Guiding
+              all the members. <br />- Helped scan the books.
+            </p>
+            <h3>Leonel Rogon</h3>
+            <p>
+              - Develop the website. <br />- Design and layout the website.
+              <br />- Helped scan the books.
+            </p>
+
+            <h3>
+              Jenny Sabulao, Justine Polbo, <br />Justine Roble, and Heinrich
+              Del Rosario
+            </h3>
+            <p>- Helped scan the books.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+      <footer id="contact--section">
+        <h2 class="allh2">Send a Feedback</h2>
+        <hr class="allhr" />
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="8b16ce22-1f2b-4242-a836-eea5f0880a72"
+          />
+          <label for="name">Full Name</label><br />
+          <input type="text" id="name" name="name" required /><br />
+
+          <label for="email">Email Address</label><br />
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="40"
+            rows="10"
+            placeholder="Input your message here"
+          ></textarea>
+          <div class="buttons">
+            <button type="submit" class="submit">Submit</button>
+          </div>
+        </form>
+
+        <div class="check-me-out">
+          <h3>or Message Developer</h3>
+          <div class="check-link">
+            <a href="https://www.facebook.com/leonlrgn/about"
+              ><i class="ri-facebook-fill" title="Facebook"></i
+            ></a>
+
+            <a href="https://www.instagram.com/rogondotdev/">
+              <i class="ri-instagram-line" title="Instagram"></i
+            ></a>
+          </div>
+        </div>
+        <p>
+          &copy; 2024, All rights reserved. <br />
+          Balingasa High School PR-2 TVL-ICT GROUP 3
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

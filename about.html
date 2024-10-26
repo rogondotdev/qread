@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QRead | Balingasa High School Library</title>
+    <link rel="stylesheet" href="/qread/about.css" />
+    <link rel="icon" href="/qread/pictures/qread-logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/remixicon/fonts/remixicon.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="/qread/pictures/qread-logo.png" alt="QRead Logo" />
+
+        <ul class="sidebar">
+          <div class="ekis">
+            <li onclick="hideSidebar()"><i class="ri-close-line"></i></li>
+          </div>
+          <li onclick="hideSidebar()"><a href="/qread/index.html">Home</a></li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/about.html#about--section">About</a>
+          </li>
+          <li onclick="hideSidebar()"><a href="/qread/books.html">Books</a></li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/index.html#people--section">People</a>
+          </li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/index.html#contact--section">Contact</a>
+          </li>
+        </ul>
+        <ul>
+          <li class="hideonmobile"><a href="/qread/index.html">Home</a></li>
+          <li class="hideonmobile">
+            <a href="/qread/about.html#about--section">About</a>
+          </li>
+          <li class="hideonmobile"><a href="/qread/books.html">Books</a></li>
+          <li class="hideonmobile">
+            <a href="/qread/index.html#people--section">People</a>
+          </li>
+          <li class="hideonmobile">
+            <a href="/qread/index.html#contact--section">Contact</a>
+          </li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a><i class="ri-menu-line"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <script>
+        function showSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "flex";
+        }
+        function hideSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "none";
+        }
+      </script>
+    </header>
+
+    <main>
+      <section class="hero--section">
+        <div class="hero-content">
+          <h1>Welcome to BHS: QRead</h1>
+          <a href="#steps--section">I want to read</a>
+        </div>
+      </section>
+
+      <section id="about--section" class="about--section">
+        <div class="about--wrapper">
+          <h2>About us</h2>
+          <p>
+            This is a website created to help the
+            <span>library of Balingasa High School</span> adapt to the
+            skyrocketing changes of this digital world by digitizing its books
+            so they can be read on any device. QRead is also
+            <span>part of the compliance</span> for our subject,
+            <i>Practical Research 2</i>. <br />
+            <br />
+            Also, <span>QRead is exclusive</span> only for the people that is
+            willing to <span>go to the Balingasa High School Library</span> to
+            borrow a school' tablet and scan the books they want to read.
+          </p>
+        </div>
+
+        <div id="steps--section" class="steps--wrapper">
+          <h2>How to read ebooks in QRead?</h2>
+          <p><span>Step 1</span>: Go to the Balingasa High School Library.</p>
+          <p><span>Step 2</span>: Borrow a school' tablet.</p>
+          <p><span>Step 3</span>: Find a Book you want to read.</p>
+          <p>
+            <span>Step 4</span>: Scan the QR code on the book you chosen using
+            school' tablet.
+          </p>
+          <p>
+            <span>Step 5</span>: Enjoy reading! After you read, make sure that
+            the tablet is brought back to the library.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="footer--feedback" href="/qread/index.html#contact--section"
+        >Send us a Feedback</a
+      >
+      <div class="contact--links">
+        <a href="https://www.facebook.com/leonlrgn/about" target="_blank"
+          ><i class="ri-facebook-fill" title="Facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/rogondotdev/" target="_blank">
+          <i class="ri-instagram-line" title="Instagram"></i
+        ></a>
+      </div>
+      &copy; 2024, All rights reserved.
+      <p>Balingasa High School PR-2 TVL-ICT GROUP 3</p>
+    </footer>
+  </body>
+</html>

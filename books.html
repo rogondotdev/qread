@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QRead | Balingasa High School Library</title>
+    <link rel="stylesheet" href="/qread/books.css" />
+    <link rel="icon" href="/qread/pictures/qread-logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/remixicon/fonts/remixicon.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="/qread/pictures/qread-logo.png" alt="QRead Logo" />
+
+        <ul class="sidebar">
+          <div class="ekis">
+            <li onclick="hideSidebar()"><i class="ri-close-line"></i></li>
+          </div>
+          <li onclick="hideSidebar()"><a href="/qread/index.html">Home</a></li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/about.html">About</a>
+          </li>
+          <li onclick="hideSidebar()"><a href="/qread/books.html#science-books-section">Books</a></li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/index.html#people--section">People</a>
+          </li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/index.html#contact--section">Contact</a>
+          </li>
+        </ul>
+        <ul>
+          <li class="hideonmobile"><a href="/qread/index.html">Home</a></li>
+          <li class="hideonmobile">
+            <a href="/qread/about.html">About</a>
+          </li>
+          <li class="hideonmobile"><a href="/qread/books.html#science-books-section">Books</a></li>
+          <li class="hideonmobile">
+            <a href="/qread/index.html#people--section">People</a>
+          </li>
+          <li class="hideonmobile">
+            <a href="/qread/index.html#contact--section">Contact</a>
+          </li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a><i class="ri-menu-line"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <script>
+        function showSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "flex";
+        }
+        function hideSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "none";
+        }
+      </script>
+    </header>
+
+    <main>
+      <section class="hero--section">
+        <div class="hero-content">
+          <h1>Books Section</h1>
+          <h2>Read digitized books</h2>
+          <a href="#science-books-section">Read now for free</a>
+        </div>
+      </section>
+
+      <section id="science-books-section">
+        <h2 class="allh2">Science Books</h2>
+        <hr class="allhr" />
+        <div class="books--container">
+          <div class="books">
+            <img src="/qread/pictures/science-book1.jpg" alt="" />
+            <p>Matter: Building block of the Universe</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book2.jpg" alt="" />
+            <p>Mysteries of mind space and time</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book3.jpg" alt="" />
+            <p>Integrated Science Philippines 8</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book4.jpg" alt="" />
+            <p>Skylab's Astronomy and Space Sciences</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book5.jpg" alt="" />
+            <p>Exploring Science</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book6.jpg" alt="" />
+            <p>The Sea</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book7.jpg" alt="" />
+            <p>Heath: Earth Science</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book8.jpg" alt="" />
+            <p>Focus on: Life Science</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book9.jpg" alt="" />
+            <p>You and the natural world</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book10.jpg" alt="" />
+            <p>The science library</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book11.jpg" alt="" />
+            <p>Physical Science</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book12.jpg" alt="" />
+            <p>The Science of Animal Agriculture</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book13.jpg" alt="" />
+            <p>Discover Science</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/science-book14.jpg" alt="" />
+            <p>Exploring Physical science</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="ict-books-section">
+        <h2 class="allh2">ICT Books</h2>
+        <hr class="allhr" />
+        <div class="books--container">
+          <div class="books">
+            <img src="/qread/pictures/ict--book1.jpg" alt="" />
+            <p>Simple: Electronics (Basics)</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/ict--book2.jpg" alt="" />
+            <p>Introduction to Information Technology</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/ict--book3.jpg" alt="" />
+            <p>Designing Web Pages 3</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/ict--book4.jpg" alt="" />
+            <p>Cyber Stategies</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/ict--book5.jpg" alt="" />
+            <p>Electronic Office System</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/ict--book10.jpg" alt="" />
+            <p>Electronics Office Systems (Manual)</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/ict--book6.jpg" alt="" />
+            <p>The Office: Procedures and Technologies</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/ict--book7.jpg" alt="" />
+            <p>Data Structures and Program Design</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/ict--book8.jpg" alt="" />
+            <p>Computers and Information Systems</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/ict--book9.png" alt="" />
+            <p>Electronic Office Systems (Manual)</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/ict--book11.jpg" alt="" />
+            <p>Informaton technology studies</p>
+          </div>
+          <div class="books">
+            <img src="/qread/pictures/ict--book12.jpg" alt="" />
+            <p>Computer Graphics Basics</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="math-books-section">
+        <h2 class="allh2">Mathematics Books</h2>
+        <hr class="allhr" />
+        <div class="books--container">
+            <div class="books">
+              <img src="/qread/pictures/math--books1.jpg" alt="" />
+              <p>Middle School Math 1 (Holt)</p>
+            </div>
+            <div class="books">
+              <img src="/qread/pictures/math--books2.jpg" alt="" />
+              <p>Introductory Calculus</p>
+            </div>
+            <div class="books">
+              <img src="/qread/pictures/math--books3.jpg" alt="" />
+              <p>Practical Mathematics</p>
+            </div>
+            <div class="books">
+              <img src="/qread/pictures/math--books4.jpg" alt="" />
+              <p>Financial Accountancy</p>
+            </div>
+            <div class="books">
+              <img src="/qread/pictures/math--books5.jpg" alt="" />
+              <p>Texas Mathematics Course 1</p>
+            </div>
+            <div class="books">
+              <img src="/qread/pictures/math--books6.jpg" alt="" />
+              <p>Math Matters Book 1</p>
+            </div>
+            <div class="books">
+              <img src="/qread/pictures/math--books7.jpg" alt="" />
+              <p>Mathematics Applications and Connections 3</p>
+            </div>
+            <div class="books">
+              <img src="/qread/pictures/math--books8.jpg" alt="" />
+              <p>financial Accounting 1</p>
+            </div>
+            <div class="books">
+              <img src="/qread/pictures/math--books9.jpg" alt="" />
+              <p>Middle School Math 1 (Foresman & Wesley)</p>
+            </div>
+      </section>
+
+      <section id="history-books-section" >
+        <h2 class="allh2">History Books</h2>
+        <hr class="allhr" />
+      </section>
+
+      <section id="english-books-section">
+        <h2 class="allh2">English Books</h2>
+        <hr class="allhr" />
+      </section>
+    </main>
+
+    <footer>
+        <a class="footer--feedback" href="/qread/index.html#contact--section"
+          >Send us a Feedback</a
+        >
+        <div class="contact--links">
+          <a href="https://www.facebook.com/leonlrgn/about" target="_blank"
+            ><i class="ri-facebook-fill" title="Facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/rogondotdev/" target="_blank">
+            <i class="ri-instagram-line" title="Instagram"></i
+          ></a>
+        </div>
+        &copy; 2024, All rights reserved.
+        <p>Balingasa High School PR-2 TVL-ICT GROUP 3</p>
+      </footer>
+  </body>
+</html>
