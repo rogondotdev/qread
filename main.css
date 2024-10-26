@@ -552,7 +552,7 @@ footer p {
     width: 70%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 850px) {
   html {
     font-size: 12px;
   }
