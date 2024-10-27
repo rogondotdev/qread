@@ -132,15 +132,16 @@ nav img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-bottom-left-radius: 25%;
-  border-bottom-right-radius: 25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom: 3px solid orange;
 }
 .hero-content {
   max-width: 85%;
   padding: 1.5rem 3rem 2rem;
   border: 5px solid #e0d7cb;
   border-radius: 5%;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(2px);
   box-shadow: inset 0 0 2rem black;
 }
 .hero-content h1 {
