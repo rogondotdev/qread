@@ -122,7 +122,7 @@ nav img {
 
 /* HERO CSS */
 .hero--section {
-  min-height: 80vh;
+  min-height: 100vh;
   background-image: url(/qread/pictures/books1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
