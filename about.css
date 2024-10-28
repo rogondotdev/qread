@@ -123,10 +123,10 @@ nav img {
 /* HERO CSS */
 .hero--section {
   min-height: 100vh;
-  background-image: url(/qread/pictures/books1.jpeg);
+  background-image: url(/qread/pictures/books3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,7 +138,7 @@ nav img {
 .hero-content {
   max-width: 85%;
   padding: 1.5rem 3rem 2rem;
-  border: 5px solid #e0d7cb;
+  border: 5px solid rgba(255, 208, 190, 0.788);
   border-radius: 5%;
   backdrop-filter: blur(2px);
   box-shadow: inset 0 0 2rem black;
@@ -202,23 +202,22 @@ nav img {
 
 /* FOOTER CSS */
 footer {
-  background-color: #141414;
+  padding-block: 5em;
+  background-color: #050505;
   padding-block: 5em;
   text-align: center;
 }
 .footer--feedback {
-  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
   color: #e0d7cb;
   text-decoration: none;
-  border-bottom: 2px solid;
-  border-image: linear-gradient(45deg, orange, orangered) 1;
-  background-clip: padding-box, border-box;
-  background-origin: border-box;
+  box-shadow: 1px 1px orangered;
   display: inline-block;
   margin-bottom: 2em;
   background-color: #1c1c1c;
-  padding: 0.3em 0.5em;
-  border-radius: 10%;
+  padding: 0.5em 0.9em;
+  border-radius: 40%;
 }
 .footer--feedback:hover {
   opacity: 0.6;
@@ -233,6 +232,7 @@ footer {
   font-size: 1.6rem;
   background-color: #1c1c1c;
   padding: 0.3em 0.4em;
+  box-shadow: 1px 1px orangered;
   border-radius: 100vh;
   cursor: pointer;
   transition: all 0.3s ease;
