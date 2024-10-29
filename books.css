@@ -127,7 +127,7 @@ nav img {
   background-image: url(/qread/pictures/books2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   display: flex;
   align-items: center;
   justify-content: center;
