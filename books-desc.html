@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QRead | Balingasa High School Library</title>
+    <link rel="stylesheet" href="/qread/main.css" />
+    <link rel="stylesheet" href="/qread/books-desc.css" />
+    <link rel="icon" href="/qread/pictures/qread-logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/remixicon/fonts/remixicon.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="/qread/pictures/qread-logo.png" alt="QRead Logo" />
+
+        <ul class="sidebar">
+          <div class="ekis">
+            <li onclick="hideSidebar()"><i class="ri-close-line"></i></li>
+          </div>
+          <li onclick="hideSidebar()"><a href="/qread/index.html">Home</a></li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/about.html">About</a>
+          </li>
+          <li onclick="hideSidebar()"><a href="/qread/books.html">Books</a></li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/index.html#people--section">Contributor</a>
+          </li>
+          <li onclick="hideSidebar()">
+            <a href="/qread/index.html#contact--section">Contact</a>
+          </li>
+        </ul>
+        <ul>
+          <li class="hideonmobile"><a href="/qread/index.html">Home</a></li>
+          <li class="hideonmobile">
+            <a href="/qread/about.html">About</a>
+          </li>
+          <li class="hideonmobile"><a href="/qread/books.html">Books</a></li>
+          <li class="hideonmobile">
+            <a href="/qread/index.html#people--section">Contributor</a>
+          </li>
+          <li class="hideonmobile">
+            <a href="/qread/index.html#contact--section">Contact</a>
+          </li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a><i class="ri-menu-line"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <script>
+        function showSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "flex";
+        }
+        function hideSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "none";
+        }
+      </script>
+    </header>
+    <main>
+      <section>
+        <div class="bd-container" id="book1">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book1.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="bd-container" id="book2">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book2.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book3">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book3.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book4">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book4.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book5">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book5.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book6">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book6.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book7">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book7.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book8">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book8.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book9">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book9.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book10">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book10.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book11">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book11.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book12">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book12.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book13">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book13.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bd-container" id="book14">
+          <div class="bd-img-container">
+            <img src="/qread/pictures/science-book14.jpg" alt="" />
+          </div>
+          <div class="bd-desc-container">
+            <h2 class="bd-title">Book Title</h2>
+            <p class="bd-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nam
+              sit quis eius saepe fuga aspernatur porro ratione voluptatum, modi
+              consequatur rem quaerat vero molestias ea nesciunt possimus hic
+              voluptate.
+            </p>
+            <div class="qrcode-container">
+              <img src="/qread/pictures/qr.jpg" alt="" />
+              <a href=""></a>
+
+              <a href="/qread/about.html#steps--section"
+                >Read instructions to read this book</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
