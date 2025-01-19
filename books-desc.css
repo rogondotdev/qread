@@ -33,9 +33,11 @@ main {
   align-items: center;
   gap: 1em;
   flex-wrap: wrap;
+  
 }
 .bd-container a {
   color: orange;
   text-decoration: underline;
   text-underline-offset: 0.5em;
+  margin-top: 2em;
 }
