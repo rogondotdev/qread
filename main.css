@@ -295,6 +295,7 @@ nav img {
   justify-self: center;
   row-gap: 1em;
 }
+
 .books--image {
   max-width: 10%;
   min-height: 10em;
@@ -326,6 +327,66 @@ nav img {
   opacity: 0.6;
 }
 
+#science-books-section,
+#ict-books-section,
+#math-books-section,
+#history-books-section,
+#english-books-section {
+  padding-block: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.allh2 {
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+.allhr {
+  border: 1px solid;
+  border-image: linear-gradient(to right, orange, orangered) 1;
+  width: 10vw;
+  margin-bottom: 3em;
+}
+.books--container {
+  max-width: 90%;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
+  grid-auto-columns: 21%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+.books {
+  background-color: #1c1c1c;
+  padding: 1em;
+  border-radius: 5%;
+  box-shadow: 0 0 3rem black;
+  display: grid;
+  align-items: center;
+  gap: 1em;
+  grid-template-rows: min-content;
+  row-gap: 1em;
+  height: 99%;
+}
+.books > img {
+  inline-size: 100%;
+  aspect-ratio: 20 / 25;
+}
+.books p {
+  font-size: 1rem;
+  text-align: center;
+}
+#science-books-section a,
+#ict-books-section a,
+#math-books-section a,
+#history-books-section a,
+#english-books-section a {
+  color: #e0d7cb;
+  text-decoration: none;
+}
 /* PEOPLE SECTION CSS */
 .people--section {
   padding: 8em 0;
@@ -547,7 +608,9 @@ footer p {
   .books {
     max-width: 20em;
   }
-
+  .books--container {
+    grid-auto-columns: 27%;
+  }
   /* People Responsive */
   .people--image {
     max-width: 90%;
